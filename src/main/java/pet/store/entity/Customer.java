@@ -23,7 +23,7 @@ public class Customer {
     private Long customerId;
 
 	private String customerFirstName;
-	private String CustomerLastname;
+	private String customerLastname;
     private String customerEmail;
 
     @ManyToMany(mappedBy = "customers", cascade = CascadeType.PERSIST)
