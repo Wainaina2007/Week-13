@@ -53,13 +53,13 @@ public class PetStoreData {
 public static class PetStoreCustomer {
 	private Long customerId;
 	private String customerFirstName;
-	private String customerLastname;
+	private String customerLastName;
     private String customerEmail;	
 	
     public PetStoreCustomer(Customer customer) { 
     	customerId = customer.getCustomerId();
     	customerFirstName = customer.getCustomerFirstName();
-    	customerLastname = customer.getCustomerLastname();
+    	customerLastName = customer.getCustomerLastName();
     	customerEmail = customer.getCustomerEmail();
 }
 
